@@ -209,6 +209,7 @@
  	color: #535353;
  	font-size: 14px;
  	line-height: 27px;
+ 	width: 100%;
  }
  
  input {
@@ -566,6 +567,14 @@
 		transition: all 0.3s; 	*/
 	}
 	
+
+.btn-subscribe{
+	margin: 0 8px;
+	padding: 10px 18px;
+	font-size: 13px; 
+	float: left;
+}
+
 	.btn + .btn {
 		margin-left: 15px;
 	}
