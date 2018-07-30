@@ -1,0 +1,98 @@
+/*
+* Made with love by Jenny Shen
+*
+* Any questions, just reach out
+* Twitter: @_jennyshen
+* Email: jenny@jennyshen.ca
+*
+*/
+body {
+  margin: 0 auto;
+  font: 13px 'Open Sans', Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  color: #333333;
+  background-color: #fff;
+}
+
+/*-----Divs------*/
+
+.center {
+  text-align: center;
+}
+.content {
+  background: #fff;
+  overflow: auto;
+  margin: 0;
+}
+.bluebg {
+   background: #eaf2f8;
+}
+.one-third {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 0px;
+}
+.half {
+  width: 682px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.footerlinks{
+  width: 297px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 0px;
+}
+
+/*-----Fonts------*/
+
+p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+.semi-bold{
+  font-weight:600;
+}
+.heading{
+   font: 14px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.credit{
+  font: 11px 'Open Sans', Helvetica, Arial, sans-serif;
+  padding: 15px 0;
+
+}
+/*-----Links-----*/
+
+a{
+  color: #1f75cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/*-----Images----*/
+
+img.ctr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+  }
+    
+img{
+  max-width: 100%;
+}
+
+/*----Elements----*/
+
+.borderdiv {
+  width: 100%;
+  height: 1;
+  margin: 25px 0 0 0;
+  border-top: 1px solid #eaf2f8;
+  border-bottom: 1px solid #eaf2f8;
+}
