@@ -79,6 +79,22 @@
  	}
  }
 
+  #newsletter-header {
+ 	position: relative;
+ 	padding: 360px 0 0px;
+ 	border-bottom: 2px solid #2046f2;
+ 	background-color: #FAFAFB;
+ 	vertical-align: bottom;
+ }
+
+ @media (max-width: 767px) {
+ 	#newsletter-header {
+ 		padding: 450px 0 0 0;
+ 		background-position: 40% 0;
+ 	}
+
+ }
+
 /***********************************************************************************
  *	+ TYPOGRAPHY
  ***********************************************************************************/
