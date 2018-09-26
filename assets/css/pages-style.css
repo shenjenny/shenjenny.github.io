@@ -534,7 +534,7 @@
  ***********************************************************************************/
  
 	/*#page-content {
-		padding-bottom: 50px;
+		padding-bottom: 0px;
 		}*/
 
 /***********************************************************************************
@@ -543,21 +543,20 @@
  
  #page-header {
  	position: relative;
- 	padding: 600px 0 40px;
+ 	padding: 360px 0 0px;
  	border-bottom: 2px solid #2046f2;
- 	/*margin-bottom: 100px;*/
- 	background: #f1f2f5 no-repeat center center;
+ 	background-color: #FAFAFB;
  	vertical-align: bottom;
  }
  
  #page-header-content {
- 	position: absolute;
  	top: 50%;
  	left: 0;
  	right: 0;
  	-webkit-transform: translateY(-50%);
  	-ms-transform: translateY(-50%);
  	transform: translateY(-50%);
+ 	}
  }
  
  #page-header-content h1 {}
@@ -569,7 +568,7 @@
  }
  @media (max-width: 767px) {
  	#page-header {
- 		padding: 490px 0 0 0;
+ 		padding: 450px 0 0 0;
  		background-position: 40% 0;
  	}
 
