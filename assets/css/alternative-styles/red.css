@@ -1542,7 +1542,7 @@
  
  #page-header {
  	border-bottom-color: #ff0054;
- 	background-color: #f1f2f5;
+ 	/*background-color: #f1f2f5;*/
  }
  
  #page-header-content span {
