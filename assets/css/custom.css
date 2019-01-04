@@ -79,7 +79,7 @@
  	}
  }
 
-#newsletter-header {
+  #newsletter-header {
  	position: relative;
  	padding: 830px 0 0;
  	background-color: #FAFAFB;
@@ -387,13 +387,14 @@
  	}
  	
  }
+ 
 
-.client {
+  .client {
  	font-size: 14px;
  	line-height: 28px;
  	font-weight: 300;
  }
- 
+
 /***********************************************************************************
  *	+ HEADLINE
  ***********************************************************************************/
@@ -453,6 +454,7 @@
  ul,
  ol {
  	padding: 0;
+ 	/*list-style: none;*/
  }
  
  li > ul, 
@@ -2314,7 +2316,6 @@
  
  #section-7 {
  	padding-top: 100px;
- 	background-image: url(../../images/backgrounds/bg-3.jpg);
  }
  
  #section-7 i {
@@ -2354,7 +2355,6 @@
  	padding: 100px 0 80px;
  	margin-top: 80px;
  	margin-bottom: -50px;
- 	background-image: url(../../images/backgrounds/bg-2.jpg);
  }
  
  @media (min-width: 768px) and (max-width: 991px) {
@@ -3409,7 +3409,6 @@
  	height: 45px;
  	padding: 0 22px;
  	border: none;
- 	background: url(../images/search.png) no-repeat center center;
  }
  
  
