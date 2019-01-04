@@ -81,7 +81,7 @@
 
 #newsletter-header {
  	position: relative;
- 	padding: 730px 0 0;
+ 	padding: 830px 0 0;
  	background-color: #FAFAFB;
  	vertical-align: bottom;
  }
@@ -89,7 +89,8 @@
  @media (max-width: 767px) {
  	#newsletter-header {
  		position: relative;
- 		padding: 1240px 0 0 0;
+ 		padding: 1380px 0 0 0;
+ 		background-position: 40% 0;
  	}
 
  }
