@@ -7,11 +7,11 @@ require_once 'google/vendor/autoload.php';
 
 $client = new Google_Client();
 $client->setApplicationName("ToDo");
-$client->setDeveloperKey("YOURAPIKEY");
+$client->setDeveloperKey("AIzaSyAE1Y9QK4chUgrvLfitXQ7VEDPxk4_d1Us");
 
 $service = new Google_Service_Sheets($client);
 
-$spreadsheetId = '1OEs_UwfU8Y1bI3OHMNaEJFWBe_NyzUx9FUAKoFwH0vY';
+$spreadsheetId = '1KnHB5abxKeFw3T_QKj2ZlOJjDrmmyT8ioc6-KAv8Dfo';
 $range = 'Sheet1!A1';
 $response = $service->spreadsheets_values->get($spreadsheetId, $range);
 $values = $response->getValues();
