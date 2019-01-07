@@ -81,6 +81,40 @@
 		</script>
 		<!-- End Visual Website Optimizer Asynchronous Code -->
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				var click = true;
+				$.ajax({
+					url: "https://tcodina.com/exp/api/add.php",
+					type: "post",
+					success: function(result){
+						$("h6 span").html(result);
+					}
+				});
+				$( "#count" ).click(function() {
+					if (click) {
+						click = false;
+						$.ajax({
+							url: "https://tcodina.com/exp/api/count.php",
+							type: "post",
+							success: function(result){
+								window.location.href = "http://bit.ly/js-infodeck";
+								$.ajax({
+									url: "https://tcodina.com/exp/api/add.php",
+									type: "post",
+									success: function(result){
+										$("h6 span").html(result);
+									}
+								});
+							}
+						});
+					}
+				});
+			});
+		</script>
+
 	</head>
 
 	<body>
@@ -428,8 +462,8 @@
 
 								<div class="headline text-center">
 
-									<a class="btn btn-default" href="http://bit.ly/js-infodeck">Download PDF</a>
-
+									<button id="count" class="btn btn-default">Download PDF</button><br>
+									<h6>This PDF has been downloaded <span></span> times</h6>
 								</div><!-- headline -->
 
 							</div><!-- col -->
