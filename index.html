@@ -87,7 +87,7 @@
 			$(document).ready(function(){
 				var click = true;
 				$.ajax({
-					url: "https://tcodina.com/exp/api/add.php",
+					url: "api/add.php",
 					type: "post",
 					success: function(result){
 						$("h6 span").html(result);
@@ -97,12 +97,12 @@
 					if (click) {
 						click = false;
 						$.ajax({
-							url: "https://tcodina.com/exp/api/count.php",
+							url: "api/count.php",
 							type: "post",
 							success: function(result){
 								window.location.href = "http://bit.ly/js-infodeck";
 								$.ajax({
-									url: "https://tcodina.com/exp/api/add.php",
+									url: "api/add.php",
 									type: "post",
 									success: function(result){
 										$("h6 span").html(result);
@@ -114,6 +114,7 @@
 				});
 			});
 		</script>
+
 
 	</head>
 
