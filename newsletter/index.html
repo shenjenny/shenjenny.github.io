@@ -135,7 +135,7 @@
 											</li>
 											<li><a href="../about.html">About</a></li>
 											<li><a href="../about.html#speaking">Speaking</a></li>
-											<li><a href="../mentorship">Mentorship</a></li>
+											<li><a href="../mentorship.html">Mentorship</a></li>
 											<li><a href="mailto:jenny@jennyshen.com">Contact</a></li>
 
 
@@ -175,7 +175,7 @@
 								<div class="row">
 									<div class="col-sm-12">
 										<br><br>
-										<h4>Jenny's Newsletter (sent 2x per month)</h4>
+										<h4>Jenny's Monthly Newsletter</h4>
 										<p>In this newsletter, you will find a combination of personal stories/experiences, what's on my mind, what I'm up to, new work I've done, useful resources, and learnings and reflections of my career and general tech/design industry.</p>
 										<p>Each issue is with a different theme/topic of something that I care about, from design, career, freelancing, mentoring, remote work to public speaking.</p>
 										<p>If you're looking for a list of links, you probably won't like it. It's more like a peek into my brain and a journal that invites people to step back from our day-to-day hustles and think about our career and discipline at large.</p>
@@ -318,6 +318,8 @@
 
 										<h6 class="widget-title"><span>Monthly Newsletter (800+ subscribers)</span></h6>
 													<p>Journal-style newsletter with stories, resources and advice on UX design, career, freelancing, remote work/digital nomading and public speaking.</p>
+
+
 										<div id="mlb2-976902" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-976902">
 											<div class="ml-form-align-center ">
 												<div class="ml-form-embedWrapper embedForm">
@@ -443,40 +445,7 @@
 			<script src="../assets/js/jquery-3.1.0.min.js"></script>
 			<script src="../assets/js/jribbble.min.js"></script>
 
-			<script>
-				$.jribbble.setToken('9a26bc4e6e360589bebc9599a3eaaa6c427abd5a0eb652ceff4b8024baf832b1');
-
-    /*
-      Jribbble methods make ajax requests to the Dribbble API. When
-      the requests complete, a Promise is returned. Use `then` to take an action
-      on the response from the server.
-      */
-
-      $.jribbble.users('jennyshen').shots({per_page: 8}).then(function(shots) {
-      	var html = [];
-
-      	shots.forEach(function(shot) {
-      		html.push('<li class="shots--shot">');
-      		html.push('<a href="' + shot.html_url + '" target="_blank">');
-      		html.push('<img src="' + shot.images.normal + '">');
-      		html.push('</a></li>');
-      	});
-
-      	$('.shots').html(html.join(''));
-      });
-  </script>
-
-  <script>
-  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  	ga('create', 'UA-25850492-1', 'auto');
-  	ga('send', 'pageview');
-
-  </script>
-
+			
 </body>
 
 </html>
